@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments and configs
+.conda/
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.venv
+env/
+venv/
+
+# Large Datasets & Images
+images/*.jpeg
+images/*.jpg
+images/*.png
+
+# Model training outputs and checkpoints
+output/
+qwen2vl_herbarium_lora/
+
+# PyTorch and Safetensors weights
+*.pth
+*.pt
+*.bin
+*.safetensors
